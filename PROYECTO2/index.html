@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mi Sitio Web</title>
+    
+    <!-- Agregar Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
+    <!-- Estilos personalizados -->
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Barra de navegación Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#"><center><h1>Internet y Tú: Una Aventura Interconectada...</h1></center>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--<div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="inicio.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="acerca.html">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>-->
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row"><!--Encabezado-->
+            <div class="col-12">
+                <img src="imagenes/banner.gif" class="img-fluid" alt="Banner">
+            </div>
+        </div>
+        <div class="row">
+            <nav class="col-md-3"><!--Menu-->
+                <ul class="nav flex-column">
+                    <!--<li class="nav-item"><a class="nav-link">Inicio</a></li>-->
+                    <li class="nav-item"><a class="nav-link" href="inicio.html">  Inicio</a></li>
+                    <!--<li class="nav-item"><a class="nav-link" href="acerca.html">Acerca de...</a></li>-->
+                </ul>
+            </nav>
+            <div class="col-md-9"><!--Sección-->
+                <!--<div class="mt-4">
+                    <h2>Misión del BLog.</h2>
+                    <img src="imagenes/banner1.jpg" alt="HTML Logo" width="80px" height="80px">
+                    <h2><p>Hola Mucho Gusto!!!  Mi nombre es Jared!!!!!</p></h2>
+                    <ul>
+                        <li>A continuación te hablare un poco sobre la historia del internet, los peligros de esta y también te estaré compartiendo algunos tips de seguridad, por ultimo te hablaré un poco sobre las innovaciones futuras que se presentan, ya que internet es una de las mayores innovaciones a lo largo de la historia.</li>
+                        <li>HTML2</li>
+                        <li>HTML3</li>
+                        <li>HTML4</li>
+                        <li>HTML5</li>
+                    </ul>
+                </div>-->
+                <div class="mt-4">
+                    <h2>Misión del BLog.</h2>
+                    <img src="imagenes/mision-blog.jpg" alt="CSS Logo" width="80px" height="80px">
+                    <h2><p>Hola Mucho Gusto!!!  Mi nombre es Jared.</p></h2>
+                    <h4><p>A continuación te hablare un poco sobre la historia del internet, los peligros de esta y también te estaré compartiendo algunos tips de seguridad, por ultimo te hablaré un poco sobre las innovaciones futuras que se presentan, ya que internet es una de las mayores innovaciones a lo largo de la historia.</p></h4>
+                    <br>
+                    <h4><p>A continuacion te proporciono una liga sobre un video introductorio hacia el mundon de internet:</p></h4>
+                    <h4><a href="https://www.youtube.com/watch?v=GkA5WOeLWbM">Ir al video introductorio</a></h4>
+                </div>
+        </div>
+        <div class="row mt-4"><!--Pie de página-->
+            <div class="col-12 text-center">
+                <h3>UNIVERSIDAD AUTÓNOMA DE CHIAPAS</h3>
+                <h3>LICENCIATURA EN SISTEMAS COMPUTACIONALES</h3>
+                <p>&copy; Copyright 2023. Esteban Lopez Harvey Jared</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contenido principal 
+    <div class="container">
+        <h1>Bienvenido a Mi Sitio Web</h1>
+        <p>Este es un sitio web de ejemplo utilizando HTML, CSS, Bootstrap y JavaScript.</p>
+    </div>-->
+
+    <!-- Agregar Bootstrap JS y jQuery (para funcionalidad de Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <div class="estrellas"></div>
+<style>
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+.estrellas {
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display:block;
+}
+
+body {
+  background:#000 url(http://1.bp.blogspot.com/-q7NYia_DjQI/U4t7_J4gwwI/AAAAAAAAMKo/nru4YxfjK6I/s1600/estrellas.png) repeat top center;
+}
+
+.estrellas{
+  background:transparent url(http://3.bp.blogspot.com/-FwB8aSiMBmI/U4t9MkimRrI/AAAAAAAAMK0/FAlqX8ZFyu8/s1600/twinkling.png) repeat top center;
+  z-index:-2;
+
+  -moz-animation:move-twink-back 100s linear infinite;
+  -ms-animation:move-twink-back 100s linear infinite;
+  -o-animation:move-twink-back 100s linear infinite;
+  -webkit-animation:move-twink-back 100s linear infinite;
+  animation:move-twink-back 100s linear infinite;
+}
+</style>
+</body>
+</html>
